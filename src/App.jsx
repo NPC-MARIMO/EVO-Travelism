@@ -1,19 +1,26 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Home from './Pages/Home'
-import BookaTrip from './Pages/BookaTrip'
-import Contact from './Pages/Contact'
+import Destination from './Pages/Destination'
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/contact' element={<Contact/>} />
-        <Route path='/booking' element={<BookaTrip/>} />
+        {/* user routes */}
+        <Route 
+          path="/" 
+          element={<UserLayout />}
+        >
+          <Route path="home" element={<Home/>} />
+          <Route path="destination" element={<Destination />} />
+        </Route>
+
+        {/* admin routes */}
       </Routes>
     </BrowserRouter>
   )
 }
 
 export default App
+

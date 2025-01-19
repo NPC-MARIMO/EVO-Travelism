@@ -2,14 +2,46 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #000;
 }
 
 html,
 body {
   height: 100%;
-  width: 100%
+  width: 100%;
+  font-family: 'Tour'
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Tour';
+  src: url(../src/assets/Fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2);
+}
+
+@font-face {
+  font-family: 'Tour2';
+  src: url(../src/assets/Fonts/pxiEyp8kv8JHgFVrJJfecg.woff2);
+}
+
+@font-face {
+  font-family: 'Tour3';
+  src: url(../src/assets/Fonts/Flaticon5f4c.ttf);
+}
+
+@font-face {
+  font-family: 'Tour4';
+  src: url(../src/assets/Fonts/fontawesome-webfont.woff2);
+}
+
+@font-face {
+  font-family: 'Tour5';
+  src: url(../src/assets/Fonts/glyphicons-halflings-regular.woff2);
+}
+
+@font-face {
+  font-family: 'Tour6';
+  src: url(../src/assets/Fonts/Jost-Regular.ttf);
+}
