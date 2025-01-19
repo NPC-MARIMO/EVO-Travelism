@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Home from './Pages/Home'
 import BookaTrip from './Pages/BookaTrip'
+import Contact from './Pages/Contact'
 
 const App = () => {
   return (
